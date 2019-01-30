@@ -1,14 +1,19 @@
 from microbit import *
 import neopixel
+
 display.show(Image.HAPPY)
+
 # 流水灯接在引脚pin16上，数量为3个
 np = neopixel.NeoPixel(pin16, 3)
+
 # 在流水灯中迭代每个LED
 for pixel_id in range(0, len(np)):
-  # 点亮第一个流水灯为红色
-  np[2] = (20, 0, 0)
-  # 显示颜色
-  np.show()
+    
+    # 点亮第一个流水灯为红色
+    np[0] = (255, 0, 0)
+    
+    # 显示颜色
+    np.show()
 
 '''
 学习目标：

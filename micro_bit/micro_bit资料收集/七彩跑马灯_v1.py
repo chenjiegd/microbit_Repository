@@ -9,7 +9,7 @@ while True:
         np.show()
         sleep(200)
         np.clear()
-        np[1] = (0, 255, 255)
+        np[1] = (0, 255, 0)
         np.show()
         sleep(200)
         np.clear()
@@ -17,11 +17,12 @@ while True:
         np.show()
         sleep(200)
         np.clear()
+        '''
         np[0] = (255, 255, 0)
         np.show()
         sleep(200)
         np.clear()
-        np[1] = (0, 255, 0)
+        np[1] = (0, 255, 255)
         np.show()
         sleep(200)
         np.clear()
@@ -29,6 +30,7 @@ while True:
         np.show()
         sleep(200)
         np.clear()
+        '''
 
 
 '''

@@ -8,3 +8,7 @@
   玄学编程
 
   希望有一天我也能强到被叫一声大佬
+
+# License
+
+  Copyright (c) Wusicaijuan. All rights reserved.
